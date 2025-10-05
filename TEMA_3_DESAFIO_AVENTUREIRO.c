@@ -41,6 +41,22 @@ int main(){
     Densidade_Demografica2 = 5622.16;
 
 
+int escolhaAtributo; // Variável para guardar a escolha do usuário no menu
 
+    printf(" *** Super Trunfo de Países ***\n\n");
+
+    printf("\nCarta 1: %s\n", Nome_do_Pais1);
+    printf("População: %d\n", Populacao1);
+    printf("Área: %.2f km²\n", Area1);
+    printf("PIB: %.2f Bilhões de reais\n", PIB1);
+    printf("Pontos Turísticos: %d\n", Pontos_Turisticos1);
+    printf("Densidade demográfica: %.2f hab/km²\n", Densidade_Demografica1);
+
+    printf("\nCarta 2: %s\n", Nome_do_Pais2);
+    printf("População: %d\n", Populacao2);
+    printf("Área: %.2f km²\n", Area2);
+    printf("PIB: %.2f Bilhões de reais\n", PIB2);
+    printf("Pontos Turísticos: %d\n", Pontos_Turisticos2);
+    printf("Densidade demográfica: %.2f hab/km²\n", Densidade_Demografica2);
 
 }
