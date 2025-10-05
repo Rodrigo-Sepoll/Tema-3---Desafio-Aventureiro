@@ -35,11 +35,11 @@ Exemplo de Uso:
 2.  Um menu será apresentado:
 
     Escolha o atributo a ser comparado:
-    1. População
-    2. Área
-    3. PIB
-    4. Pontos Turísticos
-    5. Densidade Demográfica
+    1 - População
+    2 - Área
+    3 - PIB
+    4 - Pontos Turísticos
+    5 - Densidade Demográfica
     Digite o número da sua escolha:
     
 
@@ -62,10 +62,10 @@ Exemplo de Uso:
 
 Você pode escolher comparar os países com base nos seguintes atributos:
 
-1.  População: O país com a maior população vence.
-2.  Área: O país com a maior área (em km²) vence.
-3.  PIB (Produto Interno Bruto): O país com o maior PIB (em bilhões de reais) vence.
-4.  Pontos Turísticos: O país com o maior número de pontos turísticos vence.
-5.  Densidade Demográfica: **ATENÇÃO: Este atributo tem a regra invertida!** O país com a “menor” densidade demográfica (em hab/km²) vence.
+1 - População: O país com a maior população vence.
+2 - Área: O país com a maior área (em km²) vence.
+3 - PIB (Produto Interno Bruto): O país com o maior PIB (em bilhões de reais) vence.
+4 - Pontos Turísticos: O país com o maior número de pontos turísticos vence.
+5 - Densidade Demográfica: **ATENÇÃO: Este atributo tem a regra invertida!** O país com a “menor” densidade demográfica (em hab/km²) vence.
 
 Divirta-se jogando Super Trunfo de Países!
