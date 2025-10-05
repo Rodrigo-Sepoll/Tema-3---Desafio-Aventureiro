@@ -72,7 +72,20 @@ int escolhaAtributo; // Variável para guardar a escolha do usuário no menu
     printf("\n *** Resultado da Comparação ***\n");
     printf("Países: %s vs %s\n", Nome_do_Pais1, Nome_do_Pais2);
 
-   
+   switch (escolhaAtributo) {
+        case 1: // Se o usuário escolher "Populacao"
+            printf("Atributo: População\n");
+            printf("%s: %d | %s: %d\n", Nome_do_Pais1, Populacao1, Nome_do_Pais2, Populacao2);
+            if (Populacao1 > Populacao2) { // Se a população do país 1 for maior
+                printf("Vencedor: Carta 1 - %s (com mais população!)\n", Nome_do_Pais1);
+            } else if (Populacao1 < Populacao2) { // Se a população do país 2 for maior
+                printf("Vencedor: Carta 2 - %s (com mais população!)\n", Nome_do_Pais2);
+            } else { // Se forem iguais
+                printf("Empate!\n");
+            }
+            break; // Termina o 'case 1'
+        
+
     
 
 
