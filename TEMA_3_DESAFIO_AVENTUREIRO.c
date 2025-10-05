@@ -84,7 +84,7 @@ int escolhaAtributo; // Variável para guardar a escolha do usuário no menu
                 printf("Empate!\n");
             }
             break; // Termina o 'case 1'
-            
+
         case 2: // Se o usuário escolher "Área"
             printf("Atributo: Área\n");
             printf("%s: %.2f | %s: %.2f \n", Nome_do_Pais1, Area1, Nome_do_Pais2, Area2);
@@ -97,6 +97,17 @@ int escolhaAtributo; // Variável para guardar a escolha do usuário no menu
             }
             break;
 
+        case 3: // Se o usuário escolher "PIB"
+            printf("Atributo: PIB\n");
+            printf("%s: %.2f | %s: %.2f\n", Nome_do_Pais1, PIB1, Nome_do_Pais2, PIB2);
+            if (PIB1 > PIB2) { // Se o PIB do país 1 for maior
+                printf("Vencedor: Carta 1 - %s (com maior PIB!)\n", Nome_do_Pais1);
+            } else if (PIB1 < PIB2) { // Se o PIB do país 2 for maior
+                printf("Vencedor: Carta 2 - %s (com maior PIB!)\n", Nome_do_Pais2);
+            } else { // Se forem iguais
+                printf("Empate!\n");
+            }
+            break;
     
 
 
