@@ -108,6 +108,19 @@ int escolhaAtributo; // Variável para guardar a escolha do usuário no menu
                 printf("Empate!\n");
             }
             break;
+
+        case 4: // Se o usuário escolher "Pontos Turísticos"
+            printf("Atributo: Pontos Turísticos\n");
+            printf("%s: %d | %s: %d\n", Nome_do_Pais1, Pontos_Turisticos1, Nome_do_Pais2, Pontos_Turisticos2);
+            if (Pontos_Turisticos1 > Pontos_Turisticos2) { // Se a quantidade de pontos turísticos do país 1 for maior 
+                printf("Vencedor: Carta 1 - %s (com mais pontos turísticos!)\n", Nome_do_Pais1);
+            } else if (Pontos_Turisticos1 < Pontos_Turisticos2) {// Se a quantidade de pontos turísticos do país 2 for maior
+                printf("Vencedor: Carta 2 - %s (com mais pontos turísticos!)\n", Nome_do_Pais2);
+            } else {
+                printf("Empate!\n");
+            }
+            break;
+
     
 
 
