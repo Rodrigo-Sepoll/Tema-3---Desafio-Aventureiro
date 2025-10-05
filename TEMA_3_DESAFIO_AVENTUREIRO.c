@@ -59,4 +59,21 @@ int escolhaAtributo; // Variável para guardar a escolha do usuário no menu
     printf("Pontos Turísticos: %d\n", Pontos_Turisticos2);
     printf("Densidade demográfica: %.2f hab/km²\n", Densidade_Demografica2);
 
+    //MENU INTERATIVO
+    printf("\n Escolha o atributo a ser comparado:\n");
+    printf("1. População\n");
+    printf("2. Área\n");
+    printf("3. PIB\n");
+    printf("4. Pontos Turísticos\n");
+    printf("5. Densidade Demográfica\n");
+    printf("Digite o número da sua escolha: ");
+    scanf("%d", &escolhaAtributo); // Lê a escolha do usuário
+    
+    printf("\n *** Resultado da Comparação ***\n");
+    printf("Países: %s vs %s\n", Nome_do_Pais1, Nome_do_Pais2);
+
+   
+    
+
+
 }
