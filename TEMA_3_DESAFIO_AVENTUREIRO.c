@@ -134,6 +134,8 @@ int escolhaAtributo; // Variável para guardar a escolha do usuário no menu
             }
             break;
     
-
+        default: // Se o usuário digitar uma opção que não existe no menu
+            printf("Opção inválida! Por favor, escolha um número de 1 a 5.\n");
+            break;
 
 }
