@@ -121,6 +121,18 @@ int escolhaAtributo; // Variável para guardar a escolha do usuário no menu
             }
             break;
 
+        case 5: // Se o usuário escolher "Densidade Demográfica" (REGRA INVERTIDA!)
+            printf("Atributo: Densidade Demográfica\n");
+            printf("%s: %.2f | %s: %.2f\n", Nome_do_Pais1, Densidade_Demografica1, Nome_do_Pais2, Densidade_Demografica2);
+            // A regra deste atributo é: vence o MENOR valor!
+            if (Densidade_Demografica1 < Densidade_Demografica2) { // Se a densidade do país 1 for MENOR
+                printf("Vencedor: Carta 1 - %s (com menor densidade demográfica!)\n", Nome_do_Pais1);
+            } else if (Densidade_Demografica1 > Densidade_Demografica2) { // Se a densidade do país 2 for MENOR
+                printf("Vencedor: Carta 2 - %s (com menor densidade demográfica!)\n", Nome_do_Pais2);
+            } else { // Se forem iguais
+                printf("Empate!\n");
+            }
+            break;
     
 
 
