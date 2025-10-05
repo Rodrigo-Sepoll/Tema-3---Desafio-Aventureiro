@@ -15,5 +15,14 @@ int main(){
     int Pontos_Turisticos1;
     float Densidade_Demografica1;
 
+    //Declarão de variáveis para a Carta 2
+    int Carta2[20];
+    char Nome_do_Pais2[20];
+    int População2;
+    float Area2;
+    float PIB2;
+    int Pontos_Turisticos2;
+    float Densidade_Demografica2;
+
 
 }
